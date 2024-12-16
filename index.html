@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Matching Exercise</title>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <div class="container">
+        <h1>Match the Definitions</h1>
+        <div class="exercise">
+          <div class="terms">
+            <div class="term" draggable="true" data-match="1">
+              <div class="card">
+                <div class="card-inner">
+                  <div class="front">
+                    Photosynthesis
+                    <div class="flip-indicator">Click for Hint</div>
+                  </div>
+                  <div class="back">Process by which plants use sunlight to synthesize foods.</div>
+                </div>
+              </div>
+            </div>
+            <div class="term" draggable="true" data-match="2">
+              <div class="card">
+                <div class="card-inner">
+                  <div class="front">
+                    Mitosis
+                    <div class="flip-indicator">Click for Hint</div>
+                  </div>
+                  <div class="back">Type of cell division that results in two daughter cells.</div>
+                </div>
+              </div>
+            </div>
+            <div class="term" draggable="true" data-match="3">
+              <div class="card">
+                <div class="card-inner">
+                  <div class="front">
+                    Evaporation
+                    <div class="flip-indicator">Click for Hint</div>
+                  </div>
+                  <div class="back">Process of turning from liquid into vapor.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="definitions">
+            <div class="definition" data-match="1">Conversion of light energy into chemical energy by plants.</div>
+            <div class="definition" data-match="2">Cell division resulting in two identical daughter cells.</div>
+            <div class="definition" data-match="3">Transformation of liquid water into water vapor.</div>
+          </div>
+        </div>
+        <button id="reset">Reset</button>
+        <div id="feedback"></div>
+      </div>
+      <script src="script.js"></script>
+    </body>
+    </html>

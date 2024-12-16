@@ -1,0 +1,11 @@
+{
+      "name": "interactive-matching-exercise",
+      "version": "1.0.0",
+      "description": "An interactive matching exercise for Thinkific LMS",
+      "scripts": {
+            "dev": "vite"
+      },
+      "devDependencies": {
+            "vite": "^4.5.5"
+      }
+}
